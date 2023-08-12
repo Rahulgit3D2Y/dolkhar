@@ -1,0 +1,358 @@
+﻿.BEtheme_light .bg-fader {
+    position: absolute;
+    top: 870px;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    background-image: -webkit-linear-gradient(top, transparent 0%, #f4f4f4 100px, #f4f4f4 100%);
+    background: -moz-linear-gradient(top, transparent 0%, rgba(244, 244, 244, 1) 100px, rgba(244, 244, 244, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(50px, rgba(244, 244, 244, 1)), color-stop(100%, rgba(244, 244, 244, 1)));
+
+}
+
+.BEtheme_light .opacity-overlay {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/*	HEADER  */
+
+.BEtheme_light #topBar {
+    background: white;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #f8f8f8;
+    color: #444;
+}
+
+.BEtheme_light #topBar .return-link {
+    color: #444;
+    text-shadow: 0 1px 0 white;
+}
+
+.BEtheme_light #langlist .inner .drop_btn {
+    background-position: -120px -65px;
+}
+
+.BEtheme_light #langlist .optlist li a {
+    background: white;
+}
+
+.BEtheme_light #langlist .optlist ul li a {
+    color: #444;
+}
+
+.BEtheme_light #langlist .optlist ul li a:hover {
+    color: white;
+    background-color: #444;
+}
+
+/*	MAIN BODY  */
+
+.BEtheme_light h2.text-logo {
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.BEtheme_light h2.text-logo.contact_info_inverted {
+    color: #ffffff;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+.BEtheme_light .reservationsTitle h1 {
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.BEtheme_light .reservationsTitle.contact_info_inverted h1 {
+    color: #ffffff;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+.BEtheme_light .wrapper-outer {
+    background: #f8f8f8;
+    background: none repeat scroll 0 0 rgba(244, 244, 244, 0.6);
+}
+
+.BEtheme_light .wrapper-outer.tuxedoTop {
+    border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+}
+
+.BEtheme_light .tuxedoEndcap {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.BEtheme_light .border-l-r {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.BEtheme_light .sectionRow.show .section-form {
+    border: 1px solid #DDD;
+}
+
+.BEtheme_light .section-screen {
+    text-shadow: 0 1px 0 white;
+}
+
+.BEtheme_light .sectionRow.done {
+    border: 1px solid #CFCFCF;
+    color: #444;
+    background: #F0F0F0;
+    box-shadow: inset 1px 1px 0 white;
+    -moz-box-shadow: inset 1px 1px 0 white;
+    -webkit-box-shadow: inset 1px 1px 0 white;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#F4F4F4));
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+
+}
+
+.BEtheme_light .sectionRow.done.hovered,
+.BEtheme_light .number-block.done.hovered {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#F4F4F4));
+    background-image: -webkit-linear-gradient(whiteSmoke, #D9D9D9);
+    background-image: -webkit-linear-gradient(whiteSmoke, #D9D9D9);
+    background-image: -webkit-linear-gradient(whiteSmoke, #D9D9D9);
+    background-image: -webkit-linear-gradient(whiteSmoke, #D9D9D9);
+    background-image: -webkit-linear-gradient(whiteSmoke, #D9D9D9);
+}
+
+.BEtheme_light .number-block.done {
+    margin-top: 1px;
+    height: 44px;
+    margin-bottom: 5px;
+    border: none;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #DDD;
+    color: #666;
+    box-shadow: inset 1px 1px 0 white;
+    -moz-box-shadow: inset 1px 1px 0 white;
+    -webkit-box-shadow: inset 1px 1px 0 white;
+    background: #F0F0F0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#F4F4F4));
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+    background-image: -webkit-linear-gradient(whiteSmoke, #E5E5E5);
+}
+
+.BEtheme_light .number-block.done .num-icon {
+    border-color: #666;
+}
+
+.BEtheme_light .edit-section {
+    border-left: 1px solid #DDD;
+}
+
+.BEtheme_light .edit-icon {
+    background-image: url('images/sprite_web.png');
+    background-position: -6px -58px;
+}
+
+/*	FOOTER  */
+
+.BEtheme_light .footer-menus a {
+    color: #222;
+    text-decoration: underline;
+}
+
+.BEtheme_light .footer-menus a:hover {
+    text-decoration: underline;
+    color: #222;
+}
+
+.BEtheme_light #BE_Welcome img {
+    border: 1px solid #DDD;
+}
+
+.BEtheme_light li.hotel-name {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.BEtheme_light .hotel-address {
+    color: #222;
+}
+
+.BEtheme_light .powered {
+    color: #444;
+}
+
+.BEtheme_light .powered a,
+.BEtheme_light .powered a:hover {
+    color: #444;
+}
+
+.BEtheme_light footer {
+    color: #222;
+}
+
+.BEtheme_light .number-block {
+    background-color: #F3F3F3;
+    color: #D8D8D8;
+}
+
+.BEtheme_light .number-block .num-icon {
+    height: 27px;
+    width: 26px;
+    margin: -45px 48px;
+    background-image: url('images/sprite_web.png');
+    background-position: -264px -150px;
+    border: none;
+}
+
+.BEtheme_light .number-block.show .num-icon {
+    height: 27px;
+    width: 26px;
+    margin: -45px 48px;
+    background-image: url('images/sprite_web.png');
+    background-position: -232px -150px;
+}
+
+.BEtheme_light .number-block.done .num-icon {
+    height: 27px;
+    width: 26px;
+    margin: -45px 48px;
+    background-image: url('images/sprite_web.png');
+    background-position: -200px -150px;
+}
+
+.BEtheme_light .number-block.show {
+    background-color: white;
+    background: white;
+    background-image: none;
+    color: #333;
+    box-shadow: inset 1px 1px 0 white;
+    -moz-box-shadow: inset 1px 1px 0 white;
+    -webkit-box-shadow: inset 1px 1px 0 white;
+    border: 1px solid #DDD;
+    border-right: none;
+}
+
+.BEtheme_light .number-block.show .num-icon {
+    border-color: #333;
+}
+
+.BEtheme_light span.phoneIcon {
+    background-image: url(images/sprite_web.png);
+    background-position: 1px -150px;
+}
+
+.BEtheme_light span.emailIcon {
+    background-image: url(images/sprite_web.png);
+    background-position: -47px -149px;
+}
+
+/* Hi-res display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) {
+    .BEtheme_light .edit-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block.show .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block.done .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light span.phoneIcon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light span.emailIcon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .edit-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block.show .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light .number-block.done .num-icon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light span.phoneIcon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+    .BEtheme_light span.emailIcon {
+        background-image: url('images/sprite_web%402x.html');
+        -moz-background-size: 400px 400px;
+        -o-background-size: 400px 400px;
+        -webkit-background-size: 400px 400px;
+        background-size: 400px 400px;
+    }
+
+}

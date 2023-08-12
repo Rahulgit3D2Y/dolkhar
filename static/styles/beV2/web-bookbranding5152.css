@@ -1,0 +1,168 @@
+body {
+    font-family: "Quattrocento Sans", "Helvetica Neue", "HelveticaNeue",
+    Helvetica, Arial, sans-serif !important;
+    background-repeat: repeat-x !important;
+    background-position: center top !important;
+    background-color: #8a9fc5 !important;
+    background-attachment: scroll !important;
+}
+
+body.image-fallback {
+    background-image: url(../../../../img.buuteeq.com/upload/1703/bg2-11.jpg) !important;
+    background-color: #8a9fc5 !important;
+}
+
+div.bg-fader {
+    display: none !important;
+}
+
+.outer-container div.opacity-overlay {
+    background-color: transparent !important;
+}
+
+body {
+    font-family: "Quattrocento Sans", "Helvetica Neue", "HelveticaNeue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+.ui-bar-a, .ui-bar-a input, .ui-bar-a select, .ui-bar-a textarea, .ui-bar-a button, .ui-bar-c, .ui-btn-up-c, .ui-btn-hover-c, .ui-btn-down-c, #ui-datepicker-div {
+    font-family: "Quattrocento Sans", "Helvetica Neue", "HelveticaNeue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+.ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button {
+    font-family: "Quattrocento Sans", "Helvetica Neue", "HelveticaNeue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quattrocento Sans", "Helvetica Neue", "HelveticaNeue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+.logo h2 {
+    font-family: "Ovo", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial,
+    sans-serif !important;
+}
+
+.ui-widget-content a, #promotionDetailPannel a, #addOnDetailPannel a, #ReservationPolicyPannel a, #results .custom-message a {
+    color: #2fada7 !important;
+}
+
+.ui-widget-content a:hover, #promotionDetailPannel a:hover, #addOnDetailPannel a:hover, #ReservationPolicyPannel a:hover, #results .custom-message a:hover {
+    color: #00898a !important;
+}
+
+#availabilityBtn, a.book-now, #ReservationPolicyClose, .item .res-btn, .summary-link, .results-section-1 .return-link, .results-section-1 .book-another-btn, .link-btn.edit-packages, .link-btn.delete-room, .link-btn.edit-dates, .link-btn.continue-btn, .link-btn.edit-btn, #promotionDetailPannel .res-btn, .viewRoomRates, .roomslist .ok1, .rate-link {
+    background: #2fada7 !important;
+    border-color: #00898a !important;
+}
+
+#availabilityBtn:hover, a.book-now:hover, #ReservationPolicyClose:hover, .item .res-btn:hover, .summary-link:hover, .results-section-1 .return-link:hover, .results-section-1 .book-another-btn:hover, .link-btn.edit-packages:hover, .link-btn.delete-room:hover, .link-btn.edit-dates:hover, #promotionDetailPannel .res-btn:hover, .viewRoomRates:hover, .roomslist .ok1:hover, .rate-link:hover {
+    background-color: #009293 !important;
+    border-color: #008181 !important;
+}
+
+.reservation-form, .results-section-2 {
+    border-top-color: #2fada7 !important;
+}
+
+.drop-toggle, .drop-toggle.show {
+    background-color: #2fada7 !important;
+}
+
+.avail-chart-btn, span.termsLink {
+    color: #2fada7 !important;
+}
+
+.avail-chart-btn:hover, span.termsLink:hover {
+    color: #00898a !important;
+}
+
+.roomContent h3, h3.title, .rroomunit .details-link, .difblank .price, .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, .form-room-top a, .form-addons .block h3, .form-addons .block h3.unclick:hover, .form-addons .details-link {
+    color: #2fada7 !important;
+}
+
+.roomContent h3:hover, h3.title:hover, .rroomunit .details-link:hover, .difblank .price:hover, .ui-state-default a:hover, .form-room-top a:hover, .form-addons .block h3:hover, .form-addons .details-link:hover {
+    color: #009293 !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #199a9b;
+}
+
+.ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background-color: #2fada7 !important;
+    background: #2fada7 !important;
+    border-color: #199a9b !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    color: #199a9b !important;
+    border-color: #199a9b !important;
+}
+
+.ui-datepicker-calendar .ui-state-active, .ui-datepicker-calendar .ui-widget-content .ui-state-active, .ui-datepicker-calendar .ui-widget-header .ui-state-active {
+    background-color: #2fada7 !important;
+    background: #2fada7 !important;
+    border-color: #199a9b !important;
+}
+
+.return-link {
+    color: #2fada7 !important;
+}
+
+#langlist .optlist ul {
+    background-color: #2fada7 !important;
+}
+
+#langlist .inner span:hover {
+    color: #2fada7 !important;
+}
+
+#langlist .optlist li a:hover {
+    background-color: #43b5b6 !important;
+}
+
+.webBEBtn {
+    background: #2fada7 !important;
+    border-color: #00898a !important;
+}
+
+.webBEBtn:hover {
+    background-color: #00898a !important;
+    border-color: #006868 !important
+}
+
+.webBEBtn:active {
+    background-color: #00898a !important;
+    border-color: #006868 !important
+}
+
+#BE_Welcome a, #BE_Welcome a:hover {
+    color: #2fada7 !important;
+}
+
+.BEtheme_light #langBar .optlist ul {
+    background-color: #2fada7 !important;
+}
+
+.BEtheme_light #langlist .optlist ul li a {
+    color: #00898a !important;
+}
+
+.BEtheme_light #langlist .optlist ul li a:hover {
+    background-color: #008181 !important;
+}
+
+a.res-btn {
+    color: white !important;
+}
+
+a.res-btn:hover {
+    color: white !important;
+}
+
+li.rroomunit li.ui-tabs-selected > a > span {
+    color: #000000;
+}
