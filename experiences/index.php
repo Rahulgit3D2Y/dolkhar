@@ -25,7 +25,7 @@
    </head>
    <style>
       .social-circle{
-      background: #cf6d55;
+      background: #121212;
       padding: 7px;
       border-radius: 51%;
       width: 26px;
@@ -46,56 +46,72 @@
       section { display:flex} ;
    </style>
    <body>
- <?php include '../includes/header.php'?>
+<?php include '../includes/header.php' ?>
 
-      <!--<div id="page-home" class="cover">
-         <div class="slideshow">        <div style="background-image: url(../wp-content/uploads/2019/11/Experiences-3-1.jpg)" class="slide active"></div>    </div>
-         
-         
-         
-         </div>    --><br><br><br>
-      <div class="row ml-0 mr-0 " style="overflow-x: hidden;">
-          
-          
+<!-- Add padding-top with media query -->
+<div class='toppadding'></div>
 
-          
-          
-          
-          
-          
-          
-         <div class="col-12 topic" style="margin-top: 0px;">
-            <p class="offset-1 col-10 col-sm-8 p-1 pl-4  mt-2 mb-2" style="font-size:17px;margin-left: 1px solid grey">
-               <span class="name mr">At Dolkhar we are trying to represent Ladakh in its most authentic form and our
-               experiences are tailored for you keeping just that in mind. From treks on frozen rivers
-               to immersive craft workshops, all our experiences are created, contextually and
-               consciously.
-               </span><br>
-               <!--<span class="time lr">(2-3 HOURS)</span>-->
-            </p>
-         </div>
-                            <div class="row single-exp" style="background-color: #fffffd;">
-            <div class="col-12 col-lg-5 pl-5 bsection"    >
-               <div class="text-wrapper mb-5 mt-5 p-2">
-                  <h1 class="exp-name mt-2 greycolor">Chef&apos;s Tasting</h1>
+<!--<div id="page-home" class="cover">
+     <div class="slideshow">     
+      <div style="background-image: url(../wp-content/uploads/2019/11/Experiences-3-1.jpg)" class="slide active"></div>    </div>
+     
+     
+     
+     </div>    -->
+<br> 
+<div class="row m-0">
+    <div class="col-12 topic" style="margin-top: 0px;">
+        <p class="offset-1 col-10 col-sm-8 p-1 pl-4 mt-2 mb-2" style="font-size: 17px; border-left: 1px solid grey;">
+            <span class="name Mr">At Dolkhar we are trying to represent Ladakh in its most authentic form and our
+            experiences are tailored for you keeping just that in mind. From treks on frozen rivers
+            to immersive craft workshops, all our experiences are created, contextually and
+            consciously.
+            </span><br>
+            <!--<span class="time lr">(2-3 HOURS)</span>-->
+        </p>
+    </div>
+</div>
+
+<!-- Add media query for smaller screens -->
+<style>
+
+.toppadding
+{
+padding-top:56px;
+}
+    @media screen and (width< 768px) {
+        .toppadding{
+            padding-top: 32px;
+        }
+    }
+</style>
+
       
-                  <div class="line greybgcolor" ></div>
-                  <div class="exp-body greycolor" style="text-align: justify;">
-                      <p>Our menu incorporates produce from Dolkhar&apos;s kitchen garden and local, ethical, sustainable producers to showcase a cuisine built on immense respect for nature and seasonality.
-<br>
-Our chef, after spending ample time in Ladakh eating with the locals of the region and following narratives of lost ingredients, has curated a very special tasting menu as a eulogy to his travels by giving local ingredients center stage.
-<br>Our Chef&apos;s tasting menu consists of 7 courses:<br>
 
-<br><b>Amuse bouche | Soup | Pre entree | Entree | Palate cleanser | Main | Dessert</b>
-                     </p>
-                  </div>
-               </div>
+
+<div class="row m-0 pt-2 bg-white"  >
+    <div class="col-md-6">
+        <img class="w-100" style="height: 400px; object-fit: fill;" " src="../wp-content/uploads/2019/11/ChefTasting.jpg">
+    </div>
+    <div class="col-md-6">
+        <div class="container">
+            <h1 class="exp-name mt-2">Chef's Tasting</h1>
+                 <div class="line greybgcolor"></div>
+
+            <div class="exp-body" style="text-align: justify;">
+                <p>Our menu incorporates produce from Dolkhar's kitchen garden and local, ethical, sustainable producers to showcase a cuisine built on immense respect for nature and seasonality.<br>
+                Our chef, after spending ample time in Ladakh eating with the locals of the region and following narratives of lost ingredients, has curated a very special tasting menu as a eulogy to his travels by giving local ingredients center stage.<br>Our Chef's tasting menu consists of 7 courses:<br><br><b>Amuse bouche | Soup | Pre entree | Entree | Palate cleanser | Main | Dessert</b></p>
             </div>
-            <div class="col-12 col-lg-7 pl-0 pr-0 isection">
-               <img class="w-100" src='../wp-content/uploads/2019/11/ChefTasting.jpg'>
-            </div>
-         </div>
-         <div class="row single-exp" style="background-color: #fffffd;">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+         <div class="row single-exp m-0" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection  ">
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">Craft Experiences</h1>
@@ -112,7 +128,12 @@ Our chef, after spending ample time in Ladakh eating with the locals of the regi
                <img class="w-100" src='../wp-content/uploads/2022/_7187909_11zon.jpg'>
             </div>
          </div>
-         <div class="row single-exp" style="background-color: #fffffd;">
+
+
+
+
+
+         <div class="row single-exp m-0" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection  ">
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor"></h1>
@@ -129,6 +150,8 @@ Our chef, after spending ample time in Ladakh eating with the locals of the regi
                <img class="w-100" src='../wp-content/uploads/2022/9V3A5208_11zon.jpg'>
             </div>
          </div>
+
+
          <div class="row single-exp" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection  ">
                <div class="text-wrapper mb-5 mt-5 p-2">
@@ -147,8 +170,10 @@ Our chef, after spending ample time in Ladakh eating with the locals of the regi
             </div>
          </div>
          
+
+
          
-         <div class="row single-exp" style="margin-top: -1px;background-color: #fffffd;">
+         <div class="row single-exp m-0" style="margin-top: -1px;background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection  ">
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">Chasing Spring</h1>
@@ -166,7 +191,10 @@ A sluggish shift, a sprawling yawn- the valleys of Ladakh begin to shed their co
             </div>
          </div>
          
-         <div class="row single-exp" style="margin-top: -6px;background-color: #fffffd;">
+
+
+
+         <div class="row single-exp m-0" style="margin-top: -6px;background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection  ">
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">The Pashmina trail </h1>
@@ -192,7 +220,9 @@ Our journey unravels the layers of this cultural fabric from Pash to Shawl. </p>
             </div>
          </div>
          
-          <div class="row single-exp" style="background-color: #fffffd;">
+
+
+          <div class="row single-exp m-0" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection"    >
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">Henasku - The Invisible Village</h1>
@@ -207,7 +237,10 @@ Our journey unravels the layers of this cultural fabric from Pash to Shawl. </p>
                <img class="w-100" src='../wp-content/uploads/2022/A243BF19-AEB6-42A2-A902-1EB95C91EF09_11zon.jpeg'>
             </div>
          </div>
-         <div class="row single-exp" style="background-color: #fffffd;">
+
+
+
+         <div class="row single-exp m-0" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection"    >
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">SAPI GANG TSO TREK</h1>
@@ -224,7 +257,10 @@ Our journey unravels the layers of this cultural fabric from Pash to Shawl. </p>
                <img class="w-100" src='../wp-content/uploads/2022/E8327CCB-C82C-479E-AEDF-DBEC18F752D4_11zon.jpeg'>
             </div>
          </div>
-         <div class="row single-exp" style="background-color: #fffffd;">
+
+
+
+         <div class="row single-exp m-0" style="background-color: #fffffd;">
             <div class="col-12 col-lg-5 pl-5 bsection"   >
                <div class="text-wrapper mb-5 mt-5 p-2">
                   <h1 class="exp-name mt-2 greycolor">HIMALAYAN BROWN DRENMO LOGDE </h1>
@@ -243,19 +279,7 @@ Our journey unravels the layers of this cultural fabric from Pash to Shawl. </p>
          
       </div>
       
-      <!--<div class="row ml-0 mr-0 ">-->
-        
-      <!--</div>-->
-      <!--<div class="row ml-0 mr-0 ">-->
-         
-
-      <!--</div>-->
       
-      
-      
-      <!-- <a class="whats-app" href="https://wa.me/919458954283" target="_blank">
-         <i class="fa fa-whatsapp my-float"></i>
-         </a>-->
       <footer style="background-color: #313948; color:white" class="row  ">
          <div class="col-12 col-lg-1 p-3  p-sm-5 mb-0 pb-0" style="padding-bottom: 0px !important;"></div>
          <div class="col-12 col-md-6 col-lg-4 p-3  p-sm-5 mb-0 pb-0" style="padding-bottom: 0px !important;">
@@ -271,8 +295,8 @@ Our journey unravels the layers of this cultural fabric from Pash to Shawl. </p>
             <p class="fheading" style="text-align: end;">
                GET IN TOUCH
             </p>
-            <div class="row">
-               <p class="ftext" style="text-align: end;margin-right: 14px;">Email :  
+            <div class="row m-0">
+               <p class="ftext" style="text-align: end;">Email :  
                   info@dolkharladakh.com
                   reservation@dolkharladakh.com
                </p>
