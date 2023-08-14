@@ -298,7 +298,7 @@ object-fit: fill;
 
 </style>
       
-      <footer style="background-color: #313948; color:white" class="row  ">
+      <footer style="background-color: #313948; color:white" class="row  m-0">
          <div class="col-12 col-lg-1 p-3  p-sm-5 mb-0 pb-0" style="padding-bottom: 0px !important;"></div>
          <div class="col-12 col-md-6 col-lg-4 p-3  p-sm-5 mb-0 pb-0" style="padding-bottom: 0px !important;">
             <p class="fheading">DOLKHAR</p>
@@ -321,7 +321,7 @@ object-fit: fill;
             </div>
             <p class="ftext" style="text-align: end;">Phone :  +91 78894 97040</p>
             <p class="ftext" style="text-align: end;">Address: <a style="color: #ffffff;text-decoration: underline;" href="https://www.google.com/maps/dir//Dolkhar+Resort,+Lower+Tukcha+Rd,+opposite+Community+Hall,+Leh,+Ladakh+194101/@34.1642257,77.5021641,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38fdeb37ec6a5e4d:0xcc3ef4b65a227d4e!2m2!1d77.5722048!2d34.1641035"  target="_blank">Dolkhar</a></p>
-            <div class="row">
+            <div class="row m-0">
             </div>
             <p style="text-align: end;"><a target="blank" href="https://www.instagram.com/dolkhar.ladakh/?igshid=YmMyMTA2M2Y="><i class="ml-3 social-circle fa fa-instagram" style="color:black;padding-right: 10px;"></i></a>
                <a target="blank" href="https://www.facebook.com/dolkharladakh"><i class="ml-3 social-circle fa fa-facebook" style="color: black;padding-right: 13px;"></i></a>
